@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search-page{
+    width: 83%;
+
+    margin: auto;
+}
+.shipping{
+    width: 60%;
+    
+   margin: auto;
+   margin-top:100px;
+   text-align: center;
+   line-height:40px;
+}
+.search{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    margin: 60px;
+    gap: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 100px;
+    align-items: center;
+
+}
+.vectors{
+    width: 35%;
+    
+    display: flex;
+    gap: 10px;
+    color:  #868686;
+    ;
+    
+}
+.search div:nth-child(1){
+    margin-left: 20px;
+}
+.arrow{
+    width:70px;
+    
+    background-color: #6f57e9;
+    height: 40px;
+    margin-right:40px;
+    text-align: center;
+}
+.arrow img{
+    margin-left:3px;
+    margin-top:12px;
+}
+.services{
+    width: 100%;
+    
+    margin: auto;
+    text-align: center;
+    display: flex;
+    height: 250px;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+    margin-bottom: 60px;
+
+}
+.src{
+    width: 10%;
+}
+.freight{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+    margin-top:75px;
+}
+
+.first p{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 40px;
+    color:  #535353;
+    ;
+}
+.first{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 300px;
+    width: 350px;
+}
+.src1{
+    margin: 10px;
+}
+
+.freight1{
+    display: flex;
+    gap: 10px;
+    margin-left:80px;
+    margin-top:75px;
+    
+}
+.text{
+    width: 40%;
+    
+    margin: auto;
+    margin-top:80px;
+    text-align: center;
+
+}
