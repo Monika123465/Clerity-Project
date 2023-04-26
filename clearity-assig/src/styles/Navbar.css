@@ -41,3 +41,15 @@ margin-left:150px;
     margin-top: 10px;
     margin-left:60px;
 }
+.link{
+    width: 20%;
+    
+    display: flex;
+    text-align: center;
+    margin-left:120px;
+    gap: 20px;
+    font-size: 25px;
+    
+}
+
+

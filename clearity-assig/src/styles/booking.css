@@ -1,0 +1,29 @@
+*{
+margin: 0;
+padding: 0;
+}
+.bookflight{
+    width:45%;
+    margin: auto;
+    
+    display: flex;
+    gap: 5px;
+margin-top: 60px;
+    
+}
+.images{
+    height: 2px;
+}
+.one{
+    width: 30px;
+    
+    height: 30px;
+    border-radius: 20px;
+    background-color: #d3b0ff;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
