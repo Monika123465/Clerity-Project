@@ -26,7 +26,7 @@ const Booking = () => {
       </div>
       </div>
 
-      <div>
+      <div className='updates'>
         <div className='left'>
 
          <div className='booking-summary'>
@@ -34,33 +34,33 @@ const Booking = () => {
           <div className='mid'>
             <p>Express</p>
           <img src='/images/Vector10.png' /></div>
-          <div>
+          <div className='destination'>
             <div className='delhi'>
               <img src='/images/vector15.png' alt='err'/>
-              <p>Delhi,110003 India</p>
+              <p>Delhi,<br/>110003 India</p>
             </div>
             <div className='line'>
               <img src='/images/Line15.png'/>
             </div>
             <div className='delhi'>
               <img src='/images/vector15.png' alt='err'/>
-              <p>Shanghai
-               200080, China</p></div>
+              <p>Shanghai <br/>
+               200080,China</p></div>
           </div>
          </div>
 
          <div className='second-one'>
           <div className='left-one'>
-            <h6>Total Weight/Volume</h6>
+            <p>Total Weight/Volume</p>
             <img src='/images/vector12.png' />
             <p>114.21KG</p>
           </div>
           <div className='right-one'>
-            <h6>Load</h6>
-            <div>
-            <p>1X</p> <div className='palletes'>
+           <div className='h6'><p>Load</p></div> 
+            <div className='palletes-one'>
+            <h1>1X</h1> <div className='palletes'>
               <img src='/images/Vector3.png' alt='err'/>
-              <h1>Palletes</h1>
+              <h3>Palletes</h3>
               <p>230 X 140 X  120 CM</p>
               </div>
             </div>
@@ -83,28 +83,32 @@ const Booking = () => {
 
 
         <div className='right'>
-          <h3>Price details</h3>
+         <div className='h3'><h3>Price details</h3></div> 
               <div className='quote'>
                <p>Seller’s Quote</p>
+               <p>$ 3,659.25</p>
                </div>
 
                <div className='line'><img src='/images/Line1.png'/></div>
 
               <div className='duties'>
-            <p>Duties and taxes</p>
-                <p>Not Included</p>
+            <div className='taxes'><p>Duties and taxes</p>
+                <p>Not Included</p></div>
+                <div className='taxes'><p>Insurance</p>
+                <p>$323.40</p></div>
               </div>
 
               
               <div className='line'><img src='/images/Line1.png'/></div>
 
-             <div>
-              <p>Add a promo code</p>
-              <div className='duties'>
+             <div className='promo' >
+
+              <p>Add a promo code</p></div>
+              <div className='duties1'>
             <p>Platform fee</p>
                 <p>$119.48</p>
               </div>
-             </div>
+             
             
              <div className='line'><img src='/images/Line1.png'/></div>
 

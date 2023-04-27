@@ -1,29 +1,438 @@
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-.bookflight{
-    width:45%;
+
+.bookflight {
+    width: 45%;
     margin: auto;
-    
+
     display: flex;
     gap: 5px;
-margin-top: 60px;
-    
+    margin-top: 60px;
+
 }
-.images{
+
+.images {
     height: 2px;
 }
-.one{
+
+.one {
     width: 30px;
-    
+
     height: 30px;
     border-radius: 20px;
     background-color: #d3b0ff;
     text-align: center;
     color: white;
-    
+
 }
 
+.updates {
+
+    display: flex;
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.booking-summary {
+    width: 100%;
+
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.destination {
+    display: flex;
+
+}
+
+.delhi {
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+
+.booking-summary h1 {
+    margin-left: 20px;
+
+}
+
+.second-one {
+    width: 100%;
+
+    height: 200px;
+    gap: 60px;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.left-one {
+    width: 30%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+
+.right-one {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    line-height: 25px;
+    border-radius: 15px;
+}
+
+.left-one p {
+    font-size: 25px;
+    color: #5C5C5C;
+    margin-top: 10px;
+
+}
+
+.left-one img {
+    margin-top: 30px;
+}
+
+.h6 {
+    color: #808080;
+    font-size: 30px;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.palletes-one {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.seller {
+    width: 100%;
+
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+
+    gap: 60px;
+}
+
+.frame {
+
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+}
+
+.worldwide {
+    width: 50%;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+}
+
+.frame p {
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    margin-left: 10px;
+    color: #808080;
 
 
+}
+
+.frame img {
+    margin-top: 50px;
+}
+
+.worldwide p {
+    margin-top: 10px;
+    font-size: 25px;
+    display: flex;
+    margin-left: 10px;
+    color: #808080;
+
+}
+
+.worldwide h1 {
+    margin-top: 40px;
+}
+
+.right {
+    width: 30%;
+
+    margin-left: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    height: 750px;
+    margin-top: 15px;
+    text-align: center;
+    color: #808080;
+
+}
+
+.h3 {
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #5C5C5C;
+}
+
+.quote {
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 30px;
+    gap: 60px;
+    font-size: 20px;
+}
+
+.duties {
+    display: flex;
+    margin-left: 85px;
+    margin-bottom: 30px;
+    gap: 60px;
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 60px;
+}
+
+.promo {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.duties1 {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    gap: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 60px;
+}
+
+.total {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    gap: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 60px;
+    color: black;
+}
+
+.checkout {
+    width: 250px;
+    height: 50px;
+    background-color: #9747ff;
+    color: white;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media (max-width:1020px) {
+    .updates {
+        width: 85%;
+
+
+    }
+
+    .left {
+        width: 60%;
+
+        margin-left: 10px;
+        padding: 5px;
+    }
+
+    .line {
+        margin-left: 100px;
+    }
+
+    .line img {
+        width: 50%;
+
+    }
+
+    .delhi {
+        margin-right: 20px;
+    }
+
+    .mid {
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+
+    .left-one {
+        width: 40%;
+
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+    }
+
+    .left-one img {
+        margin-top: 10px;
+    }
+
+    .palletes-one {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .right {
+        width: 40%;
+        margin-left: 10px;
+
+    }
+
+    .quote {
+
+        margin-left: 10px;
+    }
+
+    .duties {
+
+        margin-left: 15px;
+    }
+
+    .promo {
+
+        margin-left: 15px;
+    }
+
+    .duties1 {
+
+        margin-left: 15px;
+    }
+
+    .total {
+
+        margin-left: 10px;
+    }
+
+    .checkout {
+        margin-left: 10px;
+
+
+    }
+
+    .bookflight {
+
+        margin-left: 200px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .updates {
+        width: 85%;
+
+        display: block;
+
+    }
+
+    .left {
+        width: 100%;
+
+    }
+
+    .line {
+        margin-left: 100px;
+    }
+
+    .line img {
+        width: 50%;
+
+    }
+
+    .delhi {
+        margin-right: 20px;
+    }
+
+    .mid {
+        margin-top: 20px;
+        margin-left: 250px;
+    }
+
+    .left-one {
+        width: 40%;
+
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 15px;
+    }
+
+    .left-one img {
+        margin-top: 10px;
+    }
+
+    .palletes-one {
+        display: flex;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .right {
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    .quote {
+
+        margin-left: 30px;
+    }
+
+    .duties {
+
+        margin-left: 30px;
+    }
+
+    .promo {
+
+        margin-left: 30px;
+    }
+
+    .duties1 {
+
+        margin-left: 30px;
+    }
+
+    .total {
+
+        margin-left: 30px;
+    }
+
+
+
+    .bookflight {
+
+        margin-left: 0px;
+
+
+    }
+
+    .worldwide p {
+        font-size: 15px;
+
+    }
+    .bookflight {
+        width:100%;
+        
+        margin-left: 200px;
+        display: block;
+        gap: 5px;
+        margin-top: 60px;
+    
+    }
+
+
+}
